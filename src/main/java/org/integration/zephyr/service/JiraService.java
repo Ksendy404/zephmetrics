@@ -27,7 +27,11 @@ public class JiraService {
         this.config = config;
     }
 
-    public List<Issue> getTestIssues() throws IOException {
+    public static String getCheck(){
+        return "ddd";
+    }
+
+    public  List<Issue> getTestIssues() throws IOException {
         int skip = 0;
         log("Fetching JIRA Test issues for the project");
         String search = "project='" + config.getValue(PROJECT_KEY) + "'%20and%20issueType=Test";
