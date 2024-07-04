@@ -4,7 +4,7 @@
     <groupId>groupId</groupId>
     <artifactId>integration-zeph-jira</artifactId>
     <version>0.0.0.3</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <name>zephyrka</name>
     <description>The project to integrate jira</description>
     <url>https://repo1.maven.org/maven2/</url>
