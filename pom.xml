@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>groupId</groupId>
     <artifactId>integration-zeph-jira</artifactId>
-    <version>0.0.0.3</version>
+    <version>0.0.0.4</version>
     <packaging>jar</packaging>
     <name>zephyrka</name>
     <description>The project to integrate jira</description>
