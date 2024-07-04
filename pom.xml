@@ -6,12 +6,25 @@
 
     <groupId>groupId</groupId>
     <artifactId>integration-zeph-jira</artifactId>
-    <version>0.0.0.1</version>
+    <version>0.0.0.2</version>
     <name>zephyrka</name>
     <packaging>pom</packaging>
 
     <description>The project to integrate jira</description>
-    <url>http://maven.apache.org</url>
+    <url>http://repo1.maven.org/maven2</url>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>http://repo1.maven.org/maven2</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <licenses>
         <license>
